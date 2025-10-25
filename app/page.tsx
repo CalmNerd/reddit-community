@@ -80,7 +80,7 @@ export default function Home({ searchParams }: { searchParams: Promise<{ page: s
 
             <div className="flex flex-col gap-y-3">
               <Button asChild variant="secondary">
-                <Link href="/r/harsh/create">Create a Post</Link>
+                <Link href="/r/daddy/create">Create a Post</Link>
               </Button>
               <Button asChild>
                 <Link href="/r/create">Start a Community</Link>

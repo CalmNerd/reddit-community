@@ -13,20 +13,20 @@ export default function CreatePostCard() {
             <Image src={pfp} alt="pfp" className="h-12 w-12 rounded-full sm:h-14 sm:w-14" />
 
             {/* Input Area */}
-            <Link href="/r/harsh/create" className="w-full">
+            <Link href="/r/daddy/create" className="w-full">
                 <Input placeholder="What's on your mind?" className="w-full" />
             </Link>
 
             {/* Buttons Section */}
             <div className="flex items-center gap-x-4 sm:gap-x-6">
                 <Button variant="outline" size="icon" asChild>
-                    <Link href="/r/harsh/create">
+                    <Link href="/r/daddy/create">
                         <ImageDown className="w-4 h-4" />
                     </Link>
                 </Button>
 
                 <Button variant="outline" size="icon">
-                    <Link href="/r/harsh/create">
+                    <Link href="/r/daddy/create">
                         <Link2 className="w-4 h-4" />
                     </Link>
                 </Button>
